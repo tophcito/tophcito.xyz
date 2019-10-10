@@ -1,0 +1,104 @@
+baseURL = "https://tophcito.xyz/"
+languageCode = "en-us"
+title = "Christoph Waldhauser"
+theme = "binario"
+
+
+paginate = "10" # Number of posts per page
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+
+[Taxonomies]
+  category = "categories"
+  level = "level"
+  tag = "tags"
+
+[Author] # Used in authorbox
+  name = "Christoph Waldhauser"
+  bio = "Data Scientist. R aficionado. Experience with machine learning and optimization in telcos & banking. This year: saving the world with biotech."
+  avatar = "https://www.gravatar.com/avatar/1b27d78f5db8e68a59cdb2f8ff9f732d?s=128"
+
+[Params]
+  description = "Describing my journey in data science, from telcos and banks to biotech; featuring blog posts on statistics, data science, and R for beginners and masters alike."
+  copyright = "Christoph Waldhauser"
+  attribution_url = "https://tophcito.xyz"
+  opengraph = true
+  twitter_cards = true 
+  columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+  post_meta = ["date", "categories"] # Enable post meta fields in given order
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "" # dark-green, dark-blue, dark-red, dark-violet
+#  customCSS = ["css/custom.css"] # Include custom CSS files
+#  customJS = ["js/custom.js"] # Include custom JS files
+  mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+  authorbox = true # Show authorbox at bottom of single pages if true
+  toc = true # Enable Table of Contents for all site pages
+  tocOpen = true # Open Table of Contents block. Optional
+  comments = true # Enable comments for all site pages
+  related = true # Enable Related content for single pages
+  relatedMax = 5 # Set the maximum number of posts that can be displayed in related block. Optional
+  mathjax = true # Enable MathJax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+
+[Params.Copyright]
+  # Configuration of the Creative Commons license information
+  attribution_name = "Christoph Waldhauser"
+  attribution_url = "https://tophcito.xyz"
+  cc_sa = true # Set to true to include a ShareAlike clause (mutually exclusive with cc_nd)
+  cc_nd = false # Set to true to include a NonDerivative clause (mutually exclusive with cc_sa)
+  cc_nc = true # Set to true to include a NonCommercial clause
+
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
+
+[Params.Social]
+  email = "tophcito@gmail.com"
+  facebook = "tophcito"
+  twitter = "tophcito"
+#  telegram = "username"
+#  instagram = "username"
+#  pinterest = "username"
+#  vk = "username"
+  linkedin = "christophwaldhauser"
+  github = "tophcito"
+#  gitlab = "username"
+  stackoverflow = "1925660"
+#  mastodon = "https://some.instance/@username"
+#  medium = "username"
+
+[Params.Share] # Post Share block
+  facebook = true
+  twitter = true
+  reddit = true
+#  telegram = true
+  linkedin = true
+#  vk = true
+  pocket = true
+#  pinterest = true
+
+# Web App Manifest settings
+# https://www.w3.org/TR/appmanifest/
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+#[Params.Manifest]
+#  name = "Binario"
+#  shortName = "Binario"
+#  display = "browser"
+#  startUrl = "/"
+#  backgroundColor = "#2a2a2a"
+#  themeColor = "#1b1b1b"
+#  description = "Responsive card-based & code-light Hugo theme"
+#  orientation = "portrait"
+#  scope = "/"
+
+#[outputFormats]
+#  [outputFormats.MANIFEST]
+#    mediaType = "application/json"
+#    baseName = "manifest"
+#    isPlainText = true
+#    notAlternative = true
+
+#[outputs]
+#  home = ["HTML", "RSS", "MANIFEST"]
